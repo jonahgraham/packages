@@ -36,6 +36,9 @@
   <profiles>
     <profile>
       <id>epp.package.cpp</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.cpp</module>
         <module>packages/org.eclipse.epp.package.cpp.feature</module>
@@ -44,6 +47,9 @@
     </profile>
     <profile>
       <id>epp.package.dsl</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.dsl</module>
         <module>packages/org.eclipse.epp.package.dsl.feature</module>
@@ -52,6 +58,9 @@
     </profile>
     <profile>
       <id>epp.package.embedcpp</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.embedcpp</module>
         <module>packages/org.eclipse.epp.package.embedcpp.feature</module>
@@ -60,6 +69,9 @@
     </profile>
     <profile>
       <id>epp.package.java</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.java</module>
         <module>packages/org.eclipse.epp.package.java.feature</module>
@@ -68,6 +80,9 @@
     </profile>
     <profile>
       <id>epp.package.jee</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.jee</module>
         <module>packages/org.eclipse.epp.package.jee.feature</module>
@@ -76,6 +91,9 @@
     </profile>
     <profile>
       <id>epp.package.modeling</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.modeling</module>
         <module>packages/org.eclipse.epp.package.modeling.feature</module>
@@ -84,6 +102,9 @@
     </profile>
     <profile>
       <id>epp.package.parallel</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.parallel</module>
         <module>packages/org.eclipse.epp.package.parallel.feature</module>
@@ -92,6 +113,9 @@
     </profile>
     <profile>
       <id>epp.package.php</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.php</module>
         <module>packages/org.eclipse.epp.package.php.feature</module>
@@ -100,6 +124,9 @@
     </profile>
     <profile>
       <id>epp.package.rcp</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.rcp</module>
         <module>packages/org.eclipse.epp.package.rcp.feature</module>
@@ -108,6 +135,9 @@
     </profile>
     <profile>
       <id>epp.package.scout</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.scout</module>
         <module>packages/org.eclipse.epp.package.scout.feature</module>
@@ -116,6 +146,9 @@
     </profile>
     <profile>
       <id>epp.package.committers</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>packages/org.eclipse.epp.package.committers</module>
         <module>packages/org.eclipse.epp.package.committers.feature</module>
